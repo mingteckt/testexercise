@@ -1,8 +1,0 @@
-services:
-  web:
-    image: "server"
-    ports:
-      - "8000:5000"
-  alpine:
-    image: "alpine"
-    command: "tail -f /dev/null"
